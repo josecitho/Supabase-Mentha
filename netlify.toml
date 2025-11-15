@@ -1,0 +1,15 @@
+# Configuración para desplegar el frontend en Netlify
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production.environment]
+  # Cambia esta URL por la que obtengas al desplegar el backend (Render / Heroku / Vercel)
+  VITE_API_URL = "https://mentha-salon-api.onrender.com"
+
+# Opcional: si quieres redirigir llamadas /api a tu backend (solo ejemplo)
+#[[redirects]]
+#  from = "/api/*"
+#  to = "https://mentha-salon-api.onrender.com/api/:splat"
+#  status = 200
+#  force = true
