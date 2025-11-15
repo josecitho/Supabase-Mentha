@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: mentha-salon-api
+    runtime: node
+    buildCommand: npm install && npx prisma generate
+    startCommand: npm run server
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        value: file:./prisma/dev.db
+      - key: JWT_SECRET
+        scope: run

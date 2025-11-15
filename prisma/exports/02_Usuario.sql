@@ -1,0 +1,11 @@
+-- 2. Crear tabla Usuario
+CREATE TABLE IF NOT EXISTS "Usuario" (
+  "id" SERIAL PRIMARY KEY,
+  "email" VARCHAR(255) UNIQUE NOT NULL,
+  "password" VARCHAR(255) NOT NULL,
+  "nombre" VARCHAR(255) NOT NULL,
+  "rol" VARCHAR(50) DEFAULT 'staff',
+  "activo" BOOLEAN DEFAULT true,
+  "createdAt" TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
+  "updatedAt" TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);

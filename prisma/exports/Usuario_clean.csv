@@ -1,0 +1,3 @@
+id,email,password,nombre,rol,activo
+1,admin@mentha.com,$2b$10$H1nTqgw2GoFhJrV1LucofurNzERVteu9U6rHaBPL4.ngXTBn6IUX.,Administrador,admin,1
+2,jose@jose.com,$2b$10$v4fLANlRi0YRSdrwtbbKW.6YFVQPSBsnwIihDtD23Wz6WBkW1Nksi,Jose,staff,1

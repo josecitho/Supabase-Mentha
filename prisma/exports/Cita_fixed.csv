@@ -1,0 +1,3 @@
+id,cliente_id,servicio_id,fecha_hora,estado,notas
+1,2,1,2025-11-22T20:00:00.000Z,confirmada,gfhjkghjkhgjkghjkhjlk
+2,3,5,2025-11-15T14:00:00.000Z,confirmada,pintado y lijado

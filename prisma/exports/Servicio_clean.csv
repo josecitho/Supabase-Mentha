@@ -1,0 +1,6 @@
+id,nombre,descripcion,duracion_minutos,precio,activo
+1,Corte de Cabello,Corte profesional personalizado,30,25,1
+2,Coloración,Cambio de color con tinte profesional,60,60,1
+3,Tratamiento Capilar,Hidratación y regeneración del cabello,45,50,1
+4,Manicura,Cuidado completo de manos,30,20,1
+5,Pedicura,Cuidado completo de pies,40,30,1
